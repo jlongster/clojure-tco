@@ -9,7 +9,7 @@
 ;;----------------------------------------------------------------------
 
 (ns ctco.parse
-  (:use [clojure.core.match
+  (:use [cljs.core.match
          :only (match)])
   (:require [ctco.expr
              app simple def fn if let simple-op]
